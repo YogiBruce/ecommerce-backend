@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce-backend",
+  "version": "1.0.0",
+  "description": "E-commerce back-end using Express.js Sequelize, and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YogiBruce/ecommerce-backend.git"
+  },
+  "author": "Robert Arnold",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YogiBruce/ecommerce-backend/issues"
+  },
+  "homepage": "https://github.com/YogiBruce/ecommerce-backend#readme",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "mysql": "^2.18.1"
+  }
+}
