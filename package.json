@@ -19,6 +19,6 @@
   "homepage": "https://github.com/YogiBruce/ecommerce-backend#readme",
   "dependencies": {
     "express.js": "^1.0.0",
-    "mysql": "^2.18.1"
+    "mysql2": "^2.3.3"
   }
 }
