@@ -41,7 +41,8 @@ const productTagData = [
     product_id: 4,
     tag_id: 2,
   },
-  { uct_id: 4,
+  {
+    product_id: 4,
     tag_id: 8,
   },
   {
