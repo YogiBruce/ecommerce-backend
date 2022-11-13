@@ -34,7 +34,7 @@ Product.init(
 
     //stock column
     stock: {
-      tyoe: DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 10,
       validate: {
