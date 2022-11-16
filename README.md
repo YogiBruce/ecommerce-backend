@@ -1,4 +1,4 @@
-# EMPLOYEE TRACKER
+# ECOMMERCE BACKEND
 ![Github licence](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Description
