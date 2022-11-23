@@ -59,13 +59,7 @@ router.get('/:id', (req, res) => {
 
 // create new product
 router.post('/', (req, res) => {
-  Product.create({
-    product_name: req.body.product_name,
-    price: req.body.price,
-    stock: req.body.stock,
-    category_id: req.body.category_id,
-    tagIds: req.body, tag_id
-  })
+  Product.create(req.body)
     .then((product) => {
       // if there's product tags, we need to create pairings to bulk create in the ProductTag model
       if (req.body.tagIds.length) {
@@ -138,14 +132,14 @@ router.delete('/:id', (req, res) => {
       id: req.params.id
     }
   })
-    , then(dbProductData => {
+    . then(dbProductData => {
       if (!dbProductData) {
         res.status(404).json({ message: 'No product found with this id' });
         return;
       }
       res.json(dbProductData);
     })
-      .catch(err => {
+     .catch(err => {
         console.log(err);
         res.status(500).json(err);
       });
