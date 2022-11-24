@@ -1,5 +1,7 @@
 # ECOMMERCE BACKEND
-![Github licence](https://img.shields.io/badge/License-MIT-blue.svg)
+![Github licence](https://img.shields.io/badge/License-MIT-blue.svg)<br>
+![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)]<br>
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)<br>
 
 ## Description
 This command line application allows a user to run an ecommerce backend API for an online retail website. User will be able to create, read, update, and delete from products, product categories, and product tag designations. This backend application is not deployed to a browser and so an API interface app will be needed to run commands. This app demonstrates CRUD and back-end api routing using ORM principles to dynamically manipulate and display info from a MySQL database.
