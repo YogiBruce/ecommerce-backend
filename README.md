@@ -35,8 +35,8 @@ User will need to run "npm run seed" and "npm start" from the command line to be
 ### Demonstration Videos
 <a id="demo-video"></a>
 
-GET routes to return all categories, all products, and all tags.<br>
-<img src="assets\GET-all.gif" width="500px"/>
+Seed Database and Start server. Then GET routes to return all categories, all products, and all tags.<br>
+<img src="assets\Seed-schema-npm-start-GET-all.gif" width="500px"/>
 <br>
 <br>
 GET routes to return a single category, a single product, and a single tag.<br>
@@ -47,7 +47,15 @@ POST, PUT, DELETE routes for categories.<br>
 <img src="assets\PUT-POST-DELETE-categories.gif" width="500px"/>
 <br>
 <br>
-Follow this link to view walk-through video of application: [Google Drive](https://drive.google.com/file/d/1IUN5gQMWFec1_Y1tWvkCjNGf6nmx0L9u/view?usp=share_link)
+POST, PUT, DELETE routes for products.<br>
+<img src="assets\PUT-POST-DELETE-products.gif" width="500px"/>
+<br>
+<br>
+POST, PUT, DELETE routes for tags.<br>
+<img src="assets\PUT-POST-DELETE-tags.gif" width="500px"/>
+<br>
+<br>
+Follow this link to view walk-through video of application: [Google Drive](https://drive.google.com/file/d/1Nkja-7oJpPTMJkN7L4PbHCaucllYcJWG/view)
 
 #
 ## Tests
